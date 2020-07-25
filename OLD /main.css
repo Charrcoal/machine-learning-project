@@ -1,0 +1,140 @@
+#homepageimg{
+  padding-top: 40px;
+  padding-left:40px;
+  width: 1680px;
+  height:350px;
+  border:0
+}
+
+#shortcut_stockname{
+  font-size: 18px;
+  font-weight:700;
+  text-align:right;
+  padding: 0px
+}
+ 
+#shortcut1{
+  background-color: white;
+  border: 20px;
+  width: 150px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+#shortcut2{
+  background-color:lavender;
+  width: 300px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+#shortcut3{
+  background-color:lightcoral;
+  width: 300px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+#shortcut4{
+  background-color:lightseagreen;
+  width: 300px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+#shortcut5{
+  background-color:lightslategray;
+  width: 300px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+
+#shortcut6{
+  background-color:crimson;
+  width: 300px;
+  height: 90px;
+  padding-left: 120px;
+  padding-top:10px;
+  border-radius:25px;
+}
+
+#stockname{
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+#dashboard_plot{
+  padding-left:40px;
+  width: 800px;
+  height:650px;
+}
+
+
+#SAT{
+  margin-top:30px;
+  margin-left: 750px;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+}
+
+table, th, td{
+  margin-left: 150px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #f1f1c1;
+  text-align: center;
+  border-bottom: 300px;
+}
+
+
+.navbar-nav.ml-auto>li>a:focus,
+.navbar-nav.ml-auto>li>a:hover{
+    background-color: grey;
+  }
+
+#topbar {
+  min-height: 60px;
+  max-height: 60px;
+
+}
+
+#sidebar {
+  min-width: 170px;
+  max-width: 170px;
+  min-height: 100vh;
+  background-color: #abedf3;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar.active {
+  margin-left: -200px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+

@@ -80,7 +80,7 @@ var data = [trace_train_pred, trace_valid_pred, trace_test_pred];
 
 var layout = {
   title: {
-    text: "KNN Prediction Model",
+    text: "RNN Prediction Model",
     font: {
       size: 24
     },

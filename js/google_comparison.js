@@ -34,7 +34,10 @@ Plotly.d3.csv('../data/normalized_stock/google_stock.csv', function(err,rows){
   
   var layout = {
     title: {
-      text: "Normalized Stock Comparison"
+      text: "Normalized Stock Comparison",
+      font: {
+        size: 24
+      },
     },
     dragmode: 'zoom',
     showlegend: true,

@@ -1,2 +1,1 @@
-# machine-learning-project
-Final Project
+Stock prediction analysis : https://stock-prediction-project.herokuapp.com/

@@ -17,15 +17,15 @@
 <body style="background-color: #f8f9fa;">
 
     <!-- top navbar -->
-    <nav class ="navbar navbar-dark bg-dark" id="topbar">
-        <a href="index.html" class="bg-dark text-white navbar-brand">&nbsp; Machine Learning: Stock Market Prediction &nbsp;</a>
+    <nav class ="navbar navbar-expand-lg navbar-dark bg-dark" id="topbar">
+        <a href="index.html" class="bg-dark text-white navbar-brand">&nbsp; Stock Market Prediction &nbsp;</a>
     </nav>
 
     <!-- sidebar and main_body -->
     <div class="wrapper">
         <nav id="sidebar">
             <ul class ="listed-unstyled components">
-                <p style="font-size:16px;font-weight:700;">ABOUT UNICODE</p>
+                <p style="font-size:18px; font-weight:700; text-align: center; color: grey;">UNICODE</p>
                 <li class="active" >
                     <a href="dashboard_google.html" class="text-secondary"><ion-icon name="apps-outline"></ion-icon> Dashboard</a>
                 </li>
@@ -36,25 +36,58 @@
                     <a href="flowcharts.html" class=" text-secondary"><ion-icon name="bar-chart-outline"></ion-icon> Flow Charts</a>
                 </li>
                 <li>
-                    <a href="#"  class=" text-secondary"><ion-icon name="person-outline"></ion-icon> Contact</a>
+                    <a href="contact.html"  class=" text-secondary"><ion-icon name="person-outline"></ion-icon> Meet Us</a>
                 </li>
             </ul>
         </nav>
     
         <!-- homepage picture -->
+        <!-- <div class="col-md-11">
+            <div class="row pb-5">
+                <img  src="assets/mstock3.png" id="homepageimg">
+            </div> -->
+            <!-- project intro textbox -->
+            <!-- <br>
+            <div class="col-md-10 ">
+                <h2 style="text-align: center; text-decoration: underline;">Overview</h2><br>
+                <p style="text-align: center;">To build a prediction model for the stock market of six major IT companies namely Google, Amazon, Facebook, Apple, Tesla and Microsoft.</p>
+                <p style="text-align: center;"><strong style="text-underline-position: below;">Data Sources:</strong> Yahoo finance library, New York Times API <a href="https://developer.nytimes.com/">(https://developer.nytimes.com/)</a>, Reuters<a href="https://www.reuters.com/">(https://www.reuters.com/)</a>, Technewsworld<a href="https://www.technewsworld.com/">(https://www.technewsworld.com/)</a></p>
+                <p style="text-align: center;"><strong style="text-underline-position: below;">Questions:</strong> Does news headlines effect stock prices? Is is possible to predict the drop or rise in the market on news? Is news the only factor effecting the prices?</p>
+                <p>We performed sentiment analysis of the stock market data on the basis of news headlines/article snippets collected using New York Times API, Reuters.com and Techworldnews.com for last six years. Using Natural Language Processing(NLP) on the news we have built a classification model using RandomForestClassifier. Also we have compared the accuracy of the model with k-nearest neighbour(KNN) model built using the stock market data of the considered companies.</p> 
+            </div>
+        </div> -->
+    
+        <!-- New Code -->
+          <!-- homepage picture -->
         <div class=" col-xl-12 ">
             <div class="row">
                 <img src="assets/stock3.jpg"id="homepageimg">
             </div>
             <!-- project intro textbox -->
+            <br>
             <div class="row">
-                <img src="assets/placeholder2.jpg"id="homepageimg">
-                <br>
-            </div>
-            <div class="row">
-                <p class=pl-5>project intro text</p>
-            </div>
+            <div class="col-md-12">
+            
+            <h3><strong style="padding-left: 3%;">Objective:</strong></h3> 
+            <p style="padding-left: 3%;">To build prediction model for the stock market of six major technology companies namely Google, Amazon, Facebook, Apple, Tesla and Microsoft.</p>
+            <h3 ><strong style="padding-left: 3%;">Data Sources:</strong></h3> 
+            <ul style="padding-left: 5%;">
+                <li >Yahoo finance library</li>
+                <li >New York Times API <a href="https://developer.nytimes.com/">(https://developer.nytimes.com/)</a></li>
+                <li >Reuters <a href="https://www.reuters.com/">(https://www.reuters.com/)</a></li>
+                <li >Technewsworld <a href="https://www.technewsworld.com/">(https://www.technewsworld.com/)</a></li>
+            </ul>
+            
+            <h3><strong style="padding-left: 3%;">Questions:</strong></h3> 
+            <p style="padding-left: 3%;padding-right: 20%;"> Does news headlines affect stock prices? Is is possible to predict the drop or rise in the market on news? Is news the only factor affecting the prices? Does the historic prices effect future stock prices?</p>
+            <h3><strong style="padding-left: 3%;">Methodology:</strong></h3>
+            <!-- <p style="padding-left: 3%;padding-right: 20%;">We performed sentiment analysis of the stock market data on the basis of news headlines/article snippets collected using New York Times API, Reuters.com and Techworldnews.com for last six years. Using Natural Language Processing(NLP) on the news we have built a classification model using RandomForestClassifier. Also we have compared the accuracy of the model with Recurent Neural Network(RNN) model built using the stock market data of the considered companies.</p> 
+            <p style="padding-left: 3%;padding-right: 20%;">Using last 6 years of historical stock price data and news headlines/article snippets collected from the Yahoo finance library and news portals namely New York Times API, Reuters.com and Techworldnews.com, we have performed sentiment analysis on the data. Using Natural Language Processing(NLP) on the news we have built a classification model using RandomForestClassifier. Also we have compared the accuracy of the model with Recurent Neural Network(RNN) in tensorflow model built using the hstorical stock market data of the considered companies.</p>  -->
+            <p style="padding-left: 3%;padding-right: 20%;">We performed sentiment analysis using last 6 years of historical stock market data and news headlines/article snippets collected from the data sources. Applying Natural Language Processing(NLP) on the news we have built a classification model using Random Forest Classifier to predict if news on a particular day contributes to a rise or drop in the stock prices. Also, we have trained and built a model using Recurrent Neural Network (RNN) in tensorflow using historical stock prices of the considered companies and compared its accuracy with the NLP model.</p> 
+           
+           </div>
         </div>
+        </div> 
         
     
 

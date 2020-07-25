@@ -80,7 +80,7 @@ Plotly.d3.csv('../data/predicted_stock/microsoft_stock.csv', function(err,rows){
   
   var layout = {
     title: {
-      text: "KNN Prediction Model",
+      text: "RNN Prediction Model",
       font: {
         size: 24
       },

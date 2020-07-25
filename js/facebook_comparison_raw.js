@@ -37,7 +37,10 @@ Plotly.d3.csv('../data/raw_stock/facebook_stock.csv', function(err,rows){
   
   var layout = {
     title: {
-      text: "Stock Comparison"
+      text: "Stock Comparison",
+      font: {
+        size: 24
+      },
     },
     dragmode: 'zoom',
     showlegend: true,
